@@ -1,2 +1,2 @@
-# BIT001
+# bit001
 Segundo Repositorio git
