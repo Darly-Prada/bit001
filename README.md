@@ -1,10 +1,10 @@
 # bit001
 
-COMERCIALIZADORA LOS GEMELOS
+COMERCIALIZADORA LOS GEMELOS SAS
 
-## Proyecto Empresa SAS
+## Proyecto COMERCIALIZADORA LOS GEMELOS SAS
 
-decripcion e informacion de la emresa que se va a crear .
+decripcion e informacion de la empresa Comercializadora LOS GEMELOS SAS.
 
 ### DESCRIPCION COMERCIALIZADORA LOS GEMELOS SAS
 

@@ -21,7 +21,7 @@ align-items:center
     text-shadow: rgb(125, 187, 10) 2px 4px 2px ;
 }
 
-.nav-item:hover,{ 
+.nav-item:hover{ 
     background-color: rgb(9, 255, 0);
     transition: 1s;
 }
