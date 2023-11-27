@@ -1,10 +1,10 @@
-# bit001
+# bit001 Repositorio
 
-COMERCIALIZADORA LOS GEMELOS SAS
 
-## Proyecto COMERCIALIZADORA LOS GEMELOS SAS
 
-decripcion e informacion de la empresa Comercializadora LOS GEMELOS SAS.
+## COMERCIALIZADORA LOS GEMELOS SAS
+
+Decripcion e informacion de la empresa Comercializadora LOS GEMELOS SAS.
 
 ### DESCRIPCION COMERCIALIZADORA LOS GEMELOS SAS
 
@@ -20,3 +20,4 @@ personas naturales.
 #### Autor 
 Darleida Prada Devia
 Segundo proyecto Bit
+2023

@@ -13,8 +13,7 @@
       crossorigin="anonymous"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner&display=swap"
-      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Aclonica&family=Ephesis&display=swap"
     />
 
     <link
@@ -33,14 +32,16 @@
     <title>Contacto</title>
   </head>
   <body>
-    <h1>Comercializadora Los Gemelos</h1>
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <span class="titulo">
+      <h1 class="titulo-h1">Comercializadora Los Gemelos</h1>
+    </span>
+    <nav class="navbar navbar-expand-lg bg-success p-2 text-white">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"></a>
-        <i class="bi bi-truck-front bg-success green">LosGemelos</i>
+       
+        <i class="bi bi-truck-front fs-3 fw-bold border-light">Los Gemelos</i>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler border-light"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarText"
@@ -48,58 +49,118 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon">
+          </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="/index.html">Inicio</a>
+              <a class="nav-link active" href="/index.html">Principal</a>
             </li>
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="/EMPRESA/html/nosotros.html"
-                >Nosotros</a
-              >
-            </li>
+
             <li class="nav-item">
               <a class="nav-link" href="/EMPRESA/html/servicios.html"
                 >Servicios</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contactos</a>
+              <a class="nav-link" href="/EMPRESA/html/contacto.html"
+                >Contactos</a
+              >
             </li>
           </ul>
+          <form class="d-flex" role="Solicitud">
+            <input
+              class="form-control me-2"
+              type="E-mail"
+              placeholder="Contáctanos por e-mail"
+              aria-label="E-mail"
+            />
+            <button class="text-success-emphasis" type="submit">
+              Solicitar
+            </button>
+          </form>
         </div>
       </div>
     </nav>
     <main>
       <section>
-       
-    
-      <aside> <div class="logo">
-          <img
-            src="/EMPRESA/imagenes /contacto.png"
-            alt="informacion contaco de la empresa"
-            width="400px"
-          />
+        <div class="btn-wsp">
+          <a
+            href=" https://api.whatsapp.com/send?phone=+57-3214487534"
+            class="boton-wsp"
+            target="_blank"
+          >
+            <i class="bi bi-whatsapp"></i>
+          </a>
         </div>
-      </aside>
 
-        <div>
-          Razón social Comercializadora los gemelos NIT 2960900-1 Dirección
-          Vereda Bojaca calle 29 N°6-15 Teléfono 8626802 Actividad Económica
-          3858 (Clasificación de materiales ferrosos y no ferrosos)
-          Representante Legal Luis Alfonso Vanegas Castañeda Jefe de Personal
-          Sandra Janeth Vanegas Prada
-        </div>
+        <figure class="figure logo">
+        
+          <img
+            src="/EMPRESA/imagenes/contacto.png"
+            class="figure-img img-fluid rounded"
+            alt=" informacion contaco de la empresa"
+          />
+        
+        </figure>
+
+        <span class="container-fluid mx-auto span1">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3975.365331943479!2d-74.05158592501962!3d4.878328995097415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNMKwNTInNDIuMCJOIDc0wrAwMic1Ni40Ilc!5e0!3m2!1ses!2sco!4v1700971785357!5m2!1ses!2sco"
+            width="400"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+
+          <iframe
+            width="500"
+            height="315"
+            src="https://www.youtube.com/embed/YZkC1oGGI_Y?si=TjgVIcYbziWdZeIA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </span>
       </section>
-      <div>
-        <img src="/EMPRESA/imagenes /tranporta.png" alt="transportamos">
-      </div>
+
+      <figure class="figure">
+        <img
+          src="/EMPRESA/imagenes/tranporta.png"
+          class="figure-img img-fluid rounded"
+          alt="transporte"
+        />
+    
+      </figure>
     </main>
+
+    <footer class="row bg-body-subtle text-light">
+   
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body bg-dark text-light">
+            <h5 class="card-title">Comercializadora los Gemelos</h5>
+            <p class="card-text"> Dirección Vereda Bojaca calle 29 N°6-15 Teléfono: 601-8626802
+              Celular: 321448753T </p>
+            <a href="/EMPRESA/html/servicios.html" class="btn btn-success">Saber más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body bg-dark text-light">
+            <h5 class="card-title">Nuestros servicios</h5>
+            <p class="card-text">"Comercializadora los Gemelos"<br />
+              NIT 8002960900-1</p>
+            <a href="/EMPRESA/html/contacto.html" class="btn btn-success">Contáctanos</a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -107,28 +168,4 @@
       crossorigin="anonymous"
     ></script>
   </body>
-  <footer>
-                 <div class="row">
-                <div class="col-sm-6 mb-3 mb-sm-0">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Comercializadora los Gemelos</h5>
-                      <p class="card-text"> Dirección Vereda Bojaca calle 29 N°6-15 Teléfono: 601-8626802
-                        Celular: 321448753T </p>
-                      <a href="/EMPRESA/html/servicios.html" class="btn btn-primary">Saber más</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Nuestros servicios</h5>
-                      <p class="card-text">"Comercializadora los Gemelos"<br />
-                        NIT 8002960900-1</p>
-                      <a href="#" class="btn btn-primary">Contáctanos</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-  </footer>
 </html>
