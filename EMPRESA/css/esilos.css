@@ -200,9 +200,7 @@ body, footer {
     color: rgb(5, 0, 0);
        
     }
-
-   
-    }
+      }
     h2,h3,h1{
         color: rgb(214, 11, 11);
         padding:2px;
@@ -217,12 +215,18 @@ body, footer {
     .span1{
        min-width: auto;
        min-height: auto;
-    
+       font-size: 70%;
     }
-
     .nos{
         border-radius: 10%;
         box-shadow: yellowgreen -4px 4px 2px 2px;
+        font-size:12px;
+        height:50%;
+    }
+    .div1{
+        height:50%;
+        display-flex: column;
+        jus
     }
 
    @media screen and (min-width: 768px) { 
@@ -238,7 +242,7 @@ body, footer {
 
     .card-title{
         color: blue;
-        font-size: 70%;
+        
 
         }
         h1,h2,h3{
@@ -254,8 +258,10 @@ body, footer {
     
     .nos{
         color: whitesmoke;
-        border-radius: 10%;
-        box-shadow: yellowgreen -4px 4px 2px 2px;
+        border-radius: 7%;
+        box-shadow: rgb(22, 32, 0) -4px 4px 2px 2px;
+        height:50%;
+
     }
     .nav-link {
         color: whitesmoke;
@@ -282,6 +288,7 @@ body, footer {
     }
 
 .nos{
+    
     color: rgb(255, 255, 255);
     border-radius: 10%;
     box-shadow: yellowgreen -4px 4px 2px 2px;
