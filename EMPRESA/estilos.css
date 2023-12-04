@@ -1,0 +1,357 @@
+body {
+  background-color: rgb(119, 218, 218);
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* contactos*/
+
+.boton-wsp {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  color: white;
+  background-color: rgb(2, 161, 2);
+  border-radius: 50%;
+  padding: 12px;
+  text-align: center;
+  font-size: 40px;
+  z-index: auto;
+  display: flex end;
+}
+.btn-wsp {
+  display: flex;
+  justify-content: right;
+  margin: auto;
+}
+
+aside {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: blue;
+}
+
+.bi-whatsapp {
+  color: rgb(236, 247, 225);
+}
+
+h1 {
+  color: rgb(3, 39, 3);
+  font-size: 46px;
+  font-weight: bold;
+  font-family: "Edu TAS Beginner", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: rgb(125, 187, 10) 2px 4px 2px;
+}
+
+h2,
+h3,
+h5 {
+  align-items: center;
+  color: rgb(3, 39, 3);
+  display: flex;
+  font-size: 28px;
+  font-weight: bolder;
+  font-family: "Edu TAS Beginner", cursive;
+  justify-content: center;
+  padding: 4px;
+  text-shadow: rgb(125, 187, 10) 2px 4px 2px;
+}
+
+aside {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin: 12px 35%;
+  transition: all 0, 5s;
+}
+.logo:hover {
+  transform: scale(1.3);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img1 {
+  width: 50%;
+  height: 70%;
+  margin: 3px 1px;
+}
+
+.titulo-h1 {
+  transition: all 0, 5s;
+  margin: auto;
+}
+.titulo-h1:hover {
+  transform: scale(1.3);
+}
+
+.nav-item {
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: rgb(125, 187, 10) 2px 4px 2px;
+  transition: all 0, 2s;
+}
+
+.nav-item:hover {
+  background-color: rgb(67, 196, 63);
+  transform: scale(1.3);
+}
+.span-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*carrusel*/
+
+.carousel-item {
+  height: 85%;
+  object-fit: cover;
+  filter: opacity(0, 6);
+}
+
+.asociados {
+  background-color: blueviolet;
+  color: darkgreen;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen1 {
+  width: 600 px;
+}
+
+/* Contenido de la página */
+
+/* boton conocer mas */
+.a-card {
+  background-color: darkgreen;
+  border-radius: 5%;
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 35%;
+  padding: 6px;
+  text-shadow: rgb(125, 187, 10) 2px 4px 2px;
+  transition: all 0, 2s;
+}
+.a-card:hover {
+  transform: scale(1.3);
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  margin: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(233, 235, 241);
+}
+
+.card-title {
+  color: chartreuse;
+  padding: 4px 12px;
+}
+.copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  padding: 4px;
+}
+
+.nos {
+  margin: 12px;
+  color: rgb(5, 3, 128);
+  border: 1px solid darkgreen;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: left;
+  box-shadow: grey -1px 2px 2px 4px;
+}
+
+/* Acordeon */
+
+ul {
+  list-style: none;
+}
+
+.accordion-header {
+  background-color: khaki;
+}
+.accordion-item {
+  background-color: rgb(198, 243, 156);
+  border-radius: 1px solid khaki;
+}
+.accordion-button {
+  background-color: #b5e79a;
+  color: rgb(66, 219, 5);
+  font-weight: bold;
+}
+
+.col-4 {
+  height: auto;
+  margin: 2px;
+  padding: 2px;
+}
+
+.caja-s {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: 3px;
+}
+.caja-s1 {
+  color: rgb(2, 26, 112);
+  margin: 1rem;
+  width: 30%;
+  padding: 2rem;
+  box-shadow: grey -1px 2px 2px 4px;
+}
+/*servicios*/
+
+.servicios {
+  display: flex;
+  justify-content: center;
+  margin: 6px 18px;
+}
+
+.servi {
+  border-radius: 10%;
+  margin: 12px;
+  width: 90%;
+}
+
+/*contactos */
+.span1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin: 1rem;
+  gap: 2rem;
+}
+
+iframe {
+  box-shadow: grey -1px 2px 2px 4px;
+  width: 90%;
+  height: 400px;
+}
+
+/*   mediaqueries*/
+
+@media (max-width: 450px) {
+  body {
+    background-color: rgb(104, 146, 104);
+    color: rgb(5, 0, 0);
+  }
+}
+h2,
+h3,
+h1 {
+  color: rgb(214, 11, 11);
+  padding: 2px;
+}
+
+.img2 {
+  width: auto;
+  height: 45%;
+  margin-bottom: 4px;
+}
+.span1 {
+  min-width: auto;
+  min-height: auto;
+  font-size: 60%;
+}
+.nos {
+  font-size: 12px;
+  height: 50%;
+}
+
+@media screen and (min-width: 678px) {
+  body {
+    background-color: rgb(0, 19, 0);
+    color: whitesmoke;
+    font-size: 16px;
+  }
+  .btn {
+    background-color: blue;
+  }
+
+  .card-title {
+    color: rgb(248, 248, 250);
+  }
+  h1,
+  h2,
+  h3 {
+    color: rgb(105, 5, 5);
+    padding: 2px;
+  }
+
+  .caja-s1 {
+    color: rgb(1, 71, 1);
+    display: column;
+  }
+
+  .nos {
+    color: whitesmoke;
+    border-radius: 7%;
+    box-shadow: rgb(22, 32, 0) -4px 4px 2px 2px;
+    height: 50%;
+  }
+  .nav-link {
+    color: whitesmoke;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: rgb(10, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    padding: 2px;
+  }
+
+  .nos {
+    color: whitesmoke;
+    border-radius: 7%;
+    box-shadow: rgb(22, 32, 0) -4px 4px 2px 2px;
+    height: 100%;
+    max-width: 100%;
+    display: flex-column;
+  }
+
+  .caja-s1 {
+    color: rgb(255, 255, 255);
+    display: column;
+  }
+
+  .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  .btn {
+    background-color: blue;
+  }
+
+  .div1 {
+    height: 100%;
+  }
+}

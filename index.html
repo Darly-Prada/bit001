@@ -3,12 +3,12 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
     <link
-    href="https://fonts.googleapis.com/css2?family=Aclonica&family=Ephesis&display=swap'"
-  />
+      href="https://fonts.googleapis.com/css2?family=Aclonica&family=Ephesis&display=swap'"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,18 +20,15 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
     />
 
-    <link rel="stylesheet" href="./EMPRESA/css/esilos.css"/>
+    <link rel="stylesheet" href="./EMPRESA/estilos.css"/>
 
     <title>LosGemelos</title>
-   
   </head>
-    <span class="titulo"> 
-      <h1 class="titulo-h1">Comercializadora Los Gemelos</h1>
-    </span>
-
+  <body>
+    <!-- Barra de Navegación-->
     <nav class="navbar navbar-expand-lg bg-success p-2 text-white">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
+        <a class="navbar-brand" href="./EMPRESA/nosotros.html"></a>
         <i class="bi bi-truck-front fs-3 fw-bold border-light">Los Gemelos</i>
         <button
           class="navbar-toggler border-light"
@@ -48,161 +45,243 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active"  href="index.html">Principal</a>
-            </li>
-           
-            <li class="nav-item">
-              <a class="nav-link " href="./EMPRESA/html/servicios.html">Servicios</a>
+              <a class="nav-link active" href="index.html">Principal</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="./EMPRESA/html/contacto.html">Contactos</a>
+              <a class="nav-link" href="./EMPRESA/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./EMPRESA/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./EMPRESA/contactos.html">Contactos</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <header>
+      <div class="logo">
+        <img
+          class="img-fluid"
+          src="./EMPRESA/imagenes/alogo.png"
+          alt="logotipo de la empresa"
+          width="250px"
+        />
+      </div>
+      <span class="titulo">
+        <h1 class="titulo-h1">Comercializadora Los Gemelos</h1>
+      </span>
+    </header>
+
+    <!-- Contenido de la página card sobre nosotros-->
     <main>
-      <section>
-        <div class="logo">
-          <img
-            src="./EMPRESA/imagenes/alogo.png"
-            alt="logotipo de la empresa"
-            width="250px"
-          />
+      <div class="card m-auto" style="max-width:95%; height: auto">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="./EMPRESA/imagenes/transporte.jpg"
+              class="img-fluid rounded m-1 p-2"
+              alt="cuidamos el planeta"
+            />
+          </div>
+          <div class="col-sm-12 col-md-6 text-success">
+            <div class="card-body">
+              <h3 class="card-title text-center text-success">
+                Sobre Nosotros
+              </h3>
+              <p class="card-text p-4">
+                Nos dedicamos a la recolección y comercialización de materiales
+                ferrosos (chatarra) y no ferrosos (cobre, bronce, aluminio,
+                cartón, vidrios, plásticos y papelería) con esta actividad
+                ayudamos a la preservación del medio ambiente; permitiendo la
+                reutilización de dichos materiales para posteriores procesos de
+                transformación en materias primas. <br />Disminuimos las
+                emisiones de gases de invernadero que contribuyen al cambio
+                climatológico global.
+              </p>
+              <p class="card-text">
+                <small class="text-body-secondary">
+                  <a class="a-card" href="./EMPRESA/nosotros.html"> Conoce Más</a>
+                </small>
+              </p>
+            </div>
+          </div>
         </div>
-      
-        <div
-          class="p-3 text-primary-emphasis bg-dark border border-primary-subtle rounded-3"
-        >
-        <p class=" text-light"> 
-          <span class="fw-bold"> COMERCIALIZADORA LOS GEMELOS: </span> Empresa dedicada a la recolección y
-          comercialización de materiales ferrosos (chatarra) y no ferrosos
-          (cobre, bronce, aluminio, cartón, vidrios, plásticos y papelería) con
-          esta actividad ayudamos a la preservación del medio ambiente;
-          permitiendo la reutilización de dichos materiales para posteriores
-          procesos de transformación en materias primas.
-        </p>
-        </div>
-      </section>
+      </div>
+ <!-- Contenido de la página sección-->
+  <!--Carrusel -->
+
+ <div id="carouselExampleIndicators" class="carousel slide my-3 mx-2 p-3">
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="3"
+      aria-label="Slide 4"
+    ></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img 
+        src="./EMPRESA/imagenes/reciclaje-6.webp"
+        class="d-block w-100"
+        alt="Formas de reciclar"
+      />
+    </div>
+
+    <div class="carousel-item">
+      <img 
+        src="./EMPRESA/imagenes/tipos-recicla.png"
+        class="d-block w-100 p-5"
+        alt="tipos"
+      />
+    </div>
+
+    <div class="carousel-item">
+      <img 
+        src="./EMPRESA/imagenes/canecas.jpg"
+        class="d-block w-100"
+        alt="canecas."
+      />
+    </div>
+
+    <div class="carousel-item">
+      <img 
+        src="./EMPRESA/imagenes/material2.png"
+        class="d-block w-100"
+        alt="material"
+      />
+    </div>
+  </div>
+
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExampleIndicators"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleIndicators"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+</div>
+
+ <!-- contenido mision vision-->
+    <section class="contenido">
 
       <div class="container-fluid text-center">
-        <div class="row">
-          <div class="col nos">
-           <h3> ¿Qué hacemos?</h3><br>
-           <p> Recolección y comercialización de residuos sólidos reciclables contribuyendo al
-            mejoramiento del medio ambiente debido al buen manejo de las basuras y recursos aprovechables.
-           </p>
-           <img  class="img-fluid rounded" src="./EMPRESA/imagenes/cuidado.jpg" alt="cuidamos el planeta">
-
+         <div class="row d-flex-center">
+        <div class="col nos">     
+        <h3>Misión </h3>
+          <p class="p1">
+            Ser una empresa que se destaque en el cuidado del medio ambiente brindando siempre un servicio
+            de calidad en la recolección de residuos sólidos reciclables, ofreciendo
+            a nuestros clientes un fácil acceso a ellos en nuestro centro de
+            almacenamiento y distribución para su posterior reutilización; logrando
+            así un muy buen posicionamiento en el mercado y reconocimiento por
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            nuestros clientes como una empresa confiable con un excelente recurso humano.
+          </p>
+          <img class="img-fluid rounded p-2" 
+          src="./EMPRESA/imagenes/cobre.png" alt="logotipo de la empresa">
           </div>
+        
+         
+
           <div class="col nos">
-           <h3> Reciclamos </h3>
-           <p>Disminuimos las emisiones de gases de invernadero que contribuyen al cambio climatológico global.</p>
-            <img  class="img-fluid rounded" src="./EMPRESA/imagenes/material2.png" alt="Reciclamos">
-            
+            <h3>Visión </h3>
+            <p class="p1">
+              Posicionarnos en el año 2023 como la comercializadora de reciclaje más grande
+              y sólida a nivel regional a través del trabajo, esfuerzo y gestión con prácticas
+              innovadoras en los procesos de recolección de materiales ferrosos y no ferrosos;
+              brindando a nuestros clientes altos estándares de calidad en el servicio.
+              Contamos con una gran variedad de clientes y proveedores, y un excelente capital humano.
+            </p>
+            <img class="img-fluid rounded p-lg-2" 
+            src="./EMPRESA/imagenes/tranporta.png" alt="reciclaje" >
+          </div>
+          
+        </div>
+        
+          </div>
+
+        </div>
+    </section>
+  </main>
+  <footer class="row bg-body-subtle text-light">
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body bg-dark text-light">
+            <h5 class="card-title">Comercializadora los Gemelos</h5>
+            <p class="card-text">
+              Dirección Vereda Bojaca calle 29 N°6-15 Teléfono: 601-8626802
+              Celular: 321448753T
+            </p>
+            <a href="./EMPRESA/servicios.html" class="btn btn-success"
+              >Saber más</a
+            >
           </div>
         </div>
-
-
-        <div class="row ">
-          
-        <div class="col nos div1" >
-     
-          <h3>Misión </h3>
-            <p class="p1">
-              Ser una empresa que se destaque en el cuidado del medio ambiente brindando siempre un servicio
-              de calidad en la recolección de residuos sólidos reciclables, ofreciendo
-              a nuestros clientes un fácil acceso a ellos en nuestro centro de
-              almacenamiento y distribución para su posterior reutilización; logrando
-              así un muy buen posicionamiento en el mercado y reconocimiento por
-              nuestros clientes como una empresa confiable con un excelente recurso humano.
+      </div>
+  
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body bg-dark text-light">
+            <h5 class="card-title">Nuestros servicios</h5>
+            <p class="card-text">
+              "Comercializadora los Gemelos"<br />
+              NIT 8002960900-1
             </p>
-            <img class="img-fluid rounded mb-2 mx-auto"
-            src="./EMPRESA/imagenes/cobre.png"
-            alt="logotipo de la empresa" 
-            />
-           
-          </div>
-
-            <div class="col nos div1">
-              <h3>Visión </h3>
-              <p class="p1">
-                Contamos con una gran variedad de clientes y proveedores, entre ellos se encuentran 
-                empresas del sector privado, conjuntos residenciales, gremio de recicladores y personas naturales.
-              </p>
-              <img class="img-fluid rounded" src="./EMPRESA/imagenes/recicla4.png" alt="reciclaje" >
-            
-            </div>
-
-          <div class="col nos div1">
-            <h3>Objetivos </h3>
-            <p class="p1">  
-            <ul class="lista">
-              <li class="li">Ahorrar recursos naturales. </li>
-              <li class="li">Generar ingresos, dinero y empleo. </li>
-              <li class="li">Disminuir el consumo de energía.  </li>
-              <li class="li">Reducir la contaminación ambiental. </li>
-              <li class="li">Fomentar el consumo responsable. </li>
-            </ul>
-           </p>
-           <img  class="img-fluid rounded" 
-           src="./EMPRESA/imagenes/material.png" alt="formas de reciclar">
-         
-          </div>
-          
-          <div class="col nos div1">
-            <h3>Características del mercado</h3>
-
-           <p class="p1">
-              Trabajamos una gran variedad de productos que pueden ser utilizados como
-              materias primas y materias primas secundarias las cuales son
-              utilizadas en proyectos decorativos, construcción, artesanías e
-              industrial. Cuenta con una gran variedad de clientes y
-              proveedores, entre ellos se encuentran empresas del sector
-              privado, conjuntos residenciales, gremio de recicladores y
-              personas naturales.
-            </p>
-            <img class="img-fluid rounded mb-2 mx-auto"
-              src="./EMPRESA/imagenes/tipos-recicla.png"
-              alt="logotipo de la empresa"
-              width="400px"
-            />               
-            </div>
-          </div>
+            <a href="./EMPRESA/contactos.html" class="btn btn-success"
+              >Contáctanos</a
+            >
           </div>
         </div>
       </div>
 
-   </main>
+      <div class="copy  bi-file-person-fill">
+        <a>© Los Gemelos Chía </a>
+        <a>@darleida.prada-2023-Bits </a>
+      </div>
+    </div>
+     
+    </footer>
 
-    <footer class="row bg-body-subtle text-light">
-   
-   <div class="col-sm-6 mb-3 mb-sm-0">
-     <div class="card">
-       <div class="card-body bg-dark text-light">
-         <h5 class="card-title">Comercializadora los Gemelos</h5>
-         <p class="card-text"> Dirección Vereda Bojaca calle 29 N°6-15 Teléfono: 601-8626802
-           Celular: 321448753T </p>
-         <a href="./EMPRESA/html/servicios.html" class="btn btn-success">Saber más</a>
-       </div>
-     </div>
-   </div>
-   <div class="col-sm-6">
-     <div class="card">
-       <div class="card-body bg-dark text-light">
-         <h5 class="card-title">Nuestros servicios</h5>
-         <p class="card-text">"Comercializadora los Gemelos"<br />
-           NIT 8002960900-1</p>
-         <a href="./EMPRESA/html/contacto.html" class="btn btn-success">Contáctanos</a>
-       </div>
-     </div>
-   </div>
- </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
   </body>
-
 </html>

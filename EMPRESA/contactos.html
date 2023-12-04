@@ -21,7 +21,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
     />
 
-    <link rel="stylesheet" href="/EMPRESA/css/esilos.css"/>
+    <link rel="stylesheet" href="estilos.css" />
 
     <title>Contacto</title>
   </head>
@@ -45,21 +45,20 @@
         >
           <span class="navbar-toggler-icon"> </span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" href="/index.html">Principal</a>
             </li>
-
             <li class="nav-item">
-              <a class="nav-link" href="/EMPRESA/html/servicios.html"
-                >Servicios</a
-              >
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/EMPRESA/html/contacto.html"
-                >Contactos</a
-              >
+              <a class="nav-link" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactos.html">Contactos</a>
             </li>
           </ul>
           <form class="d-flex" role="Solicitud">
@@ -69,28 +68,27 @@
               placeholder="Contáctanos por e-mail"
               aria-label="E-mail"
             />
-            <button class="text-success-emphasis" type="submit">
+            <a  href="https://accounts.google.com/signup/v2/createaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=SignUp&ec=asw-gmail-globalnav-create&theme=glif" class="text-warning bg-success" type="submit" value="submit" target="_blank" >
               Solicitar
-            </button>
+            </a>
           </form>
         </div>
       </div>
     </nav>
     <main>
       <section>
-        <div class="btn-wsp">
+        <div class="btn-wsp mx-5">
           <a
             href=" https://api.whatsapp.com/send?phone=+57-3214487534"
             class="boton-wsp"
             target="_blank"
-          >
-            <i class="bi bi-whatsapp"></i>
+          ><i class="bi bi-whatsapp"><h6 class="text-light">WhatsApp</h6></i>
           </a>
         </div>
 
         <figure class="figure logo">
           <img
-            src="/EMPRESA/imagenes/contacto.png"
+            src="./imagenes/contacto.png"
             class="figure-img img-fluid rounded"
             alt=" informacion contaco de la empresa"
           />
@@ -121,7 +119,7 @@
 
       <figure class="figure">
         <img
-          src="/EMPRESA/imagenes/tranporta.png"
+          src="./imagenes/tranporta.png"
           class="figure-img img-fluid rounded"
           alt="transporte"
         />
@@ -137,7 +135,7 @@
               Dirección Vereda Bojaca calle 29 N°6-15 Teléfono: 601-8626802
               Celular: 321448753T
             </p>
-            <a href="/EMPRESA/html/servicios.html" class="btn btn-success"
+            <a href="servicios.html" class="btn btn-success"
               >Saber más</a
             >
           </div>
@@ -151,12 +149,19 @@
               "Comercializadora los Gemelos"<br />
               NIT 8002960900-1
             </p>
-            <a href="/EMPRESA/html/contacto.html" class="btn btn-success"
+            <a href="contactos.html" class="btn btn-success"
               >Contáctanos</a
             >
           </div>
         </div>
       </div>
+
+      <div class="copy  bi-file-person-fill">
+        <a>© Los Gemelos Chía </a>
+        <a>@darleida.prada-2023-Bits </a>
+      </div>
+    </div>
+     
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

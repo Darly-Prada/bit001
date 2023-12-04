@@ -1,10 +1,9 @@
-# bit001 Repositorio
-
+# bit001 Repositorio Proyecto Empresa 
 
 
 ## COMERCIALIZADORA LOS GEMELOS SAS
 
-Decripcion e informacion de la empresa Comercializadora LOS GEMELOS SAS.
+Empresa del sector de gestion y cuidado del medio ambiente  a traves del proceso de reciclaje y reutilizacion de materiales reutilizables 
 
 ### DESCRIPCION COMERCIALIZADORA LOS GEMELOS SAS
 
@@ -17,7 +16,7 @@ privado, conjuntos residenciales, gremio de recicladores y
 personas naturales.
 
 
-#### Autor 
+##### Autor 
 Darleida Prada Devia
 Segundo proyecto Bit
 2023
